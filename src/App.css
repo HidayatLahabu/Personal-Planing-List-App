@@ -1,0 +1,35 @@
+html{
+  background-color: #212529 !important;
+}
+
+.App {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #212529 !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.btn {
+  width: fit-content;
+  padding: auto;
+}
+
+.btn-warning {
+  width: fit-content;
+  padding: auto;
+}
+
+.footer {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  btn {
+      width: auto;
+      padding: auto;
+      text-align: center;
+  }
+}
